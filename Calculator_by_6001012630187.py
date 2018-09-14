@@ -1,11 +1,5 @@
-
-# coding: utf-8
-
 # # Calculator By Apisit Khomcharoen 6001012630187
-
 # # blog me ---> https://apisit13411.blogspot.com/
-
-# In[ ]:
 
 
 # Calculator 
@@ -169,10 +163,6 @@ while run:
     
 pygame.quit()
 quit()
-
-
-
-# In[ ]:
 
 
 """
