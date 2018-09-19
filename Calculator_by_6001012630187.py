@@ -123,7 +123,7 @@ while run:
                     Display.blit(text, (25,50))  
             pygame.mixer.music.play()                                        # Sound Button
             pygame.mixer.music.play()
-        
+         
    # if mouse on buttom change color            
         elif event.type == pygame.MOUSEMOTION:                               
             for i in list_btm_class:
