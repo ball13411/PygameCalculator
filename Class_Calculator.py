@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
 import pygame
     
 Display = pygame.display.set_mode((400,700)) 
