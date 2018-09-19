@@ -1,11 +1,23 @@
+
+# coding: utf-8
+
 # # Calculator By Apisit Khomcharoen 6001012630187
+
 # # blog me ---> https://apisit13411.blogspot.com/
+
+#  Credit Regedit1 by Github "https://github.com/CodeAndMoreCode/pycalculator/blob/master/calculator.py" 
+
+# Credit Tech With Tim  by youtube "https://www.youtube.com/watch?v=4_9twnEduFA&t=212s"
+
+# In[1]:
+
 
 # Calculator 
 # Credit Regedit1 by Github "https://github.com/CodeAndMoreCode/pycalculator/blob/master/calculator.py" 
 # Credit Tech With Tim  by youtube "https://www.youtube.com/watch?v=4_9twnEduFA&t=212s"
 
 import pygame
+from Class_Calculator import *
 
 pygame.init()
 pygame.display.set_caption("13411 Calculator")                     # Set name pygame
@@ -25,31 +37,6 @@ Display.fill(white)                                 # Set Color Display
 list_str_cal = ['(',')','c','«','7','8','9','÷','4','5','6','x','1','2','3','-','.','0','=','+']  #list button
 list_btm_class = []
 in_list = 0
-
-class Draw():                                       # Class Pygame Draw Button
-    
-    def __init__ (self,color,x,y,widht,height):     # Set Variable
-        self.color = color
-        self.x = x
-        self.y = y
-        self.widht = widht
-        self.height = height
-        
-    def set_color (self,color):                     # Set Color
-        self.color = color
-        return self.Rect()
-    
-    def Rect (self):                                # Draw Rect
-        return pygame.draw.rect(Display,self.color,(self.x,self.y,self.widht,self.height))
-    
-    def Circle(self):                               # Draw Circle
-        return pygame.draw.circle(Display,self.color,(self.x+self.widht)/2,(self.y+self.height)/2,)
-    
-    def isPosition(self,pos):                       # Check Position Mouse
-        if pos[0] > self.x and pos[0] < self.x + self.widht :
-            if pos[1] > self.y and pos[1] < self.y + self.height:
-                return True
-        return False
 
 i=0
 for y in range(200,700,100):              
@@ -162,6 +149,9 @@ while run:
     
 pygame.quit()
 quit()
+
+
+# In[ ]:
 
 
 """
