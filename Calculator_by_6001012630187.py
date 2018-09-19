@@ -1,6 +1,3 @@
-
-# coding: utf-8
-
 # # Calculator By Apisit Khomcharoen 6001012630187
 
 # # blog me ---> https://apisit13411.blogspot.com/
@@ -8,9 +5,6 @@
 #  Credit Regedit1 by Github "https://github.com/CodeAndMoreCode/pycalculator/blob/master/calculator.py" 
 
 # Credit Tech With Tim  by youtube "https://www.youtube.com/watch?v=4_9twnEduFA&t=212s"
-
-# In[1]:
-
 
 # Calculator 
 # Credit Regedit1 by Github "https://github.com/CodeAndMoreCode/pycalculator/blob/master/calculator.py" 
@@ -149,9 +143,6 @@ while run:
     
 pygame.quit()
 quit()
-
-
-# In[ ]:
 
 
 """
